@@ -3,7 +3,7 @@ name: Manual Dispatch Workflow
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   manual-job:
