@@ -3,7 +3,8 @@ name: Print Commit Message
 on:
   push:   # Trigger this workflow on every push to any branch
     branches:
-      - '**'
+      - main
+    #   - '**'
 
 jobs:
   print-commit:
