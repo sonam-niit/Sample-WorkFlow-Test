@@ -3,7 +3,7 @@ name: Pipeline with Stages
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
