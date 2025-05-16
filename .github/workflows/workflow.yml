@@ -1,7 +1,9 @@
 name: Manual Dispatch Workflow
 
 on:
-  workflow_dispatch:  # Enables manual triggering from the GitHub UI
+  push:
+    branches:
+      - master
 
 jobs:
   manual-job:
